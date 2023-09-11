@@ -1,0 +1,49 @@
+:root {
+    --mainFont: 'Roboto', sans-serif;
+    --secondaryFont: 'Roboto Condensed', sans-serif;
+    --primaryColor: #1B90FC;
+    --white: white;
+}
+
+body {
+    margin: 0;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: var(--mainFont);
+}
+
+.wrapper {
+    max-inline-size: 1664px;
+    margin:auto;
+}
+
+.hero h1 {
+    font-family: var(--secondaryFont);
+    font-size: 40px;
+    margin-block-end: 8px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+img {
+    max-inline-size: 100%;
+}
+
+button {
+    background-color: var(--primaryColor);
+    color: var(--white);
+    padding-block: 16px;
+    padding-inline: 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.hero-content {
+    max-inline-size: 412px;
+}
